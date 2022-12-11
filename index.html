@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--  开源地址：https://github.com/cj466/personal-guide-page QQ群：1026574662 -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<meta name="format-detection" content="address=no">
+<meta name="format-detection" content="date=no">
+<title>云竹个人主页</title>
+<meta name="keywords" content="云竹个人主页">
+<meta name="description" content="简单且小巧">
+<style>
+.left{width: 50%}
+.right{width: 50%}
+</style>
+<link rel="stylesheet" id="style-css" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+<link rel="icon" type="image/ico" href="favicon.ico">
+</head><body class="home blog">
+<div class="wrapper">
+		<section class="left" style="background-image: url('https://api.ixiaowai.cn/gqapi/gqapi.php');">
+	</section>
+			<section class="right">
+		<div class="index_box">
+	<div class="index_txt">
+		<img src="vx.jpg" alt="">
+		<div class="zuobiao"><i class="ico_map"></i>中国 河南    Henan China </div>
+		<div class='hitokoto' style="color: #15559a;"></div><!-- 一言 -->
+	        <a>点击图标或文字跳转哦~</a>
+                <br><br>
+                <a href="https://www.gov.cn/" target="_blank"><img src="images/China.svg" style="width:75px;height: 45px;" /></a><a>  |  </a>
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=2457483710" target="_blank"><img src="images/QQ.svg" style="width:35px;height: 30px;" /></a>
+                <a href="https://b23.tv/kmZ0N9d" target="_blank"><img src="images/BILI.svg" style="width:35px;height: 30px;" /></a>
+<!-- svg小图标 -->
+		<div class="menu-%e8%8f%9c%e5%8d%951-container">
+			<ul id="menu-%e8%8f%9c%e5%8d%951" class="index_nav">
+				<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a href="https://docs.qq.com/doc/DVXB1b0NwdHJRT1JW" target="_blank">Minecraft服务器</a></li>
+				<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a href="https://docs.qq.com/doc/DVWlNTFVMQW9ZS2J5" target="_blank">幸存者危城辅助</a></li>
+				<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a href="http://ikun.yzfwq.ml" target="_blank">ikun小游戏</a></li>
+				<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a href="http://game.yzfwq.ml" target="_blank">小游戏合集</a></li>
+				<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a href="http://p.yzfwq.ml" target="_blank">云竹传信</a></li>
+				<li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a href="http://say.yzfwq.ml" target="_blank">留言板</a></li>
+			</ul>
+		</div>	
+	</div>
+	<div id="aplayer" class="aplayer" data-order="random" data-id="5210965038" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>
+	<!-- aplayer -->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+	<!-- <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script> -->
+    <!-- <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/layer/layer.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/v3.js"></script>
+    <!-- end_aplayer -->
+</div><footer class="right_foot">
+	
+	<div class="right_f_l">
+		<p>
+			<span>© 2021 <a href="http://996.icu" target="_blank">YZ</a></span>
+		</p>
+	</div>
+</footer>
+
+
+<!-- 一言开始 -->
+<script type='text/javascript'>
+	$.get("https://v1.hitokoto.cn/",function(data,status){
+		if (status == 'success'){
+			$('.hitokoto').text(data.hitokoto);
+		}else{
+			$('.hitokoto').text('获取出错！');
+		}
+	});
+	</script>
+<!-- 一言结束 -->
+
+<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
